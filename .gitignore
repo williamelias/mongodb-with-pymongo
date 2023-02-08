@@ -1,3 +1,4 @@
 *.env
 custom.py
 .vscode
+*.pyc
