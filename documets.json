@@ -1,0 +1,138 @@
+[{
+    "route": {
+      "origin": "aracaju-de-poucos",
+      "destination": "maceio-de-poucos",
+      "dates": [
+        {
+          "date": "2022-02-05",
+          "departures": [
+            {
+              "origin": "aracaju-de-poucos",
+              "destination": "maceio-de-poucos",
+              "hour": "09:00",
+              "busclass": "convencional",
+              "company": "Rápido Marajó",
+              "source": "clickbus",
+              "available_seats": 12,
+              "price": {
+                "$numberDecimal": "267.2"
+              },
+              "created_at": {
+                "$date": {
+                  "$numberLong": "1675735200000"
+                }
+              }
+            },
+            {
+              "origin": "aracaju-de-poucos",
+              "destination": "maceio-de-poucos",
+              "hour": "11:00",
+              "busclass": "executivo",
+              "company": "Rápido Marajó",
+              "source": "clickbus",
+              "available_seats": 9,
+              "price": {
+                "$numberDecimal": "267.2"
+              },
+              "created_at": {
+                "$date": {
+                  "$numberLong": "1675735200000"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "date": "2022-02-06",
+          "departures": [
+            {
+              "origin": "Aracaju, SE",
+              "destination": "Maceio, AL",
+              "hour": "11:00",
+              "busclass": "leito",
+              "company": "Rápido Marajó",
+              "source": "clickbus",
+              "available_seats": 12,
+              "price": {
+                "$numberDecimal": "267.2"
+              },
+              "created_at": {
+                "$date": {
+                  "$numberLong": "1675735200000"
+                }
+              }
+            },
+            {
+              "origin": "Aracaju, SE",
+              "destination": "Maceio, AL",
+              "hour": "11:20",
+              "busclass": "executivo",
+              "company": "Buser",
+              "source": "buscaonibus",
+              "available_seats": 9,
+              "price": {
+                "$numberDecimal": "267.2"
+              },
+              "created_at": {
+                "$date": {
+                  "$numberLong": "1675735200000"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "route": {
+      "origin": "fortaleza-ce",
+      "destination": "brasilia-df",
+      "dates": [
+        {
+          "date": "2022-02-04",
+          "departures": [
+            {
+             "origin": "fortaleza-ce",
+             "destination": "brasilia-df",
+              "hour": "09:00",
+              "busclass": "convencional",
+              "company": "Rápido",
+              "source": "clickbus",
+              "available_seats": 12,
+              "price": {
+                "$numberDecimal": "267.2"
+              },
+              "created_at": {
+                "$date": {
+                  "$numberLong": "1788888"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "date": "2022-02-06",
+          "departures": [
+            {
+              "origin": "fortaleza-ce",
+              "destination": "brasilia-df",
+              "hour": "11:20",
+              "busclass": "executivo",
+              "company": "Buser",
+              "source": "buscaonibus",
+              "available_seats": 9,
+              "price": {
+                "$numberDecimal": "267.2"
+              },
+              "created_at": {
+                "$date": {
+                  "$numberLong": "1675735200000"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }]
