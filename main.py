@@ -13,6 +13,7 @@ class MongodbRepository:
 
         self.connect()
         self.get_mongo_db()
+        print(f"All actions into {COL_NAME} Collection")
 
     def connect(self):
         try:
@@ -52,3 +53,27 @@ class MongodbRepository:
                 "y.destination": {"$eq": "value2"},
             }
         )
+    
+    def coll_stats(self, collection):
+        """
+        SELECT * FROM mycollection WHERE <field> = <value>
+        """
+        return collection.aggregate(
+            [{
+               "$collStats":
+                    {
+                    "latencyStats": { "histograms": True },
+                    "storageStats": { "scale": 1 },
+                    "count": {},
+                    "queryExecStats": {}
+                }
+            }]
+        )
+
+
+
+# repo = PublicPricesFilter()
+# _collection = repo.get_collection()
+
+# print(list(repo.find_all_items(_collection)))
+# print(repo.count_all_items(_collection))
